@@ -1,0 +1,227 @@
+/* ---------------------------------------------------------------
+			RE-INITIALISATION DES TAGS HTML
+	Pour éviter les valeurs par défaut différentes suivant les 
+	navigateurs. Seuls les tags le plus	souvent utilisés et non 
+	dépréciés sont pris en compte.
+	Reset complet : http://meyerweb.com/eric/tools/css/reset/
+--------------------------------------------------------------- */
+html, body, div, span, applet, iframe,
+h1, h2, h3, h4, h5, h6, p, pre, strong, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font-weight: normal;	
+	vertical-align: baseline;
+	background: transparent;
+	}
+body {
+	line-height: 1;
+	}	
+ol, ul {
+	list-style: none;
+	}
+table { 
+	border-spacing: 4px;
+	}
+td {
+	text-align: right;
+	}
+	
+.lesub {
+ 	background:url(../images/bouton.png);
+   	width:142px;
+   	height:42px;
+   	border: 0;
+	}
+.lesub:hover {
+	background:url(../images/bouton_over.png);
+	width:142px;
+   	height:42px;
+   	border: 0;
+	}
+	
+/* ---------------------------------------------------------------
+	FEUILLE DE STYLE ORIGINALE	
+--------------------------------------------------------------- */
+html {
+	height: 100%
+	}
+body {
+	background: #20190f;
+	color: #e8dbb1;
+	font-size: 14px;
+	font-family: Verdana, Geneva, Sans-Serif;
+	height: 100%;
+	}
+
+/** Bloc contenant toute la page 
+avec image de fond et centré */
+#bcPage {
+	background: url(../images/fond.jpg);
+	padding-bottom: 40px;
+	margin: auto;
+	width: 800px;
+	}
+	
+/* ---------------------------------
+	 Définition des tags de titre 
+*/
+
+h1 {
+	border-bottom: 3px solid #e8dbb1;
+	font-size: 36px;
+	font-weight: bold;
+	margin: 26px 0;
+	}	
+h2 {
+	font-size: 26px;
+	font-weight: bold;	
+	margin: 22px 0px;
+	
+	}
+h3 {
+	font-size: 20px;
+	font-weight: bold;	
+	margin: 18px 0;
+	}
+
+p {
+	padding:2px;
+	}
+
+/* ---------------------------------
+	 Définition des autres tags 
+*/
+		
+strong {
+	font-weight: bold;
+	}
+	
+	
+header {
+	height: 270px;
+	background: url(../images/entete_deconnecte.jpg) no-repeat;
+	}
+	
+aside {
+	background: url(../images/micro.jpg) no-repeat;
+	color: #efe7de;
+	font: bold 16px "Comic Sans MS", cursive, sans-serif;
+	float: left;
+	height: 450px;
+	padding-left: 15px;
+	width: 235px;
+	}
+	
+	
+a {
+	text-decoration:none;
+	color: #3c96f1;
+	font-weight: bold;
+	}
+
+p > a:hover  {
+	text-decoration: underline;
+	}
+	
+	
+#titre {
+	float: right;
+	color: orange;
+	font-size: 26px;
+	font-weight: bold;
+	margin-right: 20px;
+	margin-top: 160px;
+	}
+
+#letrait {
+	 float: right;
+   	 margin-right: 10px;
+	}	
+	
+	
+#expli {
+	font-weight: bold;
+	padding-top: 220px;
+	padding-left: 250px;
+	}
+	
+	
+#connection {
+	margin: 20px 0 0 250px;
+	width: 550px;
+	}
+	
+	
+	
+#deco {
+	margin-top: 10px;
+	float:right;
+	}
+	
+	
+
+#home {
+	width:48px;
+	height:44px;
+	
+	position: relative;
+	left:540px;
+	top:83px;
+	}
+
+
+#cherche {
+	width:44px;
+	height:40px;
+	
+	position: relative;
+	left:550px;
+	top:83px;
+	}
+
+
+#config {
+	width:44px;
+	height:40px;
+	
+	position: relative;
+	left:560px;
+	top:83px;
+	
+
+	}
+	
+
+#bcPied {
+	background: url(../images/pied.png) no-repeat;
+	clear: both;
+	height: 65px;
+	padding: 10px 0 0 115px;
+	margin-top: 20px;
+	}
+	
+#bcPied li {
+	display: inline;
+	}
+	
+#bcPied a {
+	display: block;
+	float: left;
+	margin-right: 25px;
+	font-size: 12px;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	}
+	
+#bcPied a:hover {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	}
+
+
+

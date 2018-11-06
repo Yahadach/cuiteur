@@ -1,0 +1,333 @@
+/* ---------------------------------------------------------------
+			RE-INITIALISATION DES TAGS HTML
+	Pour éviter les valeurs par défaut différentes suivant les 
+	navigateurs. Seuls les tags le plus	souvent utilisés et non 
+	dépréciés sont pris en compte.
+	Reset complet : http://meyerweb.com/eric/tools/css/reset/
+--------------------------------------------------------------- */
+html, body, div, span, applet, iframe,
+h1, h2, h3, h4, h5, h6, p, pre, strong, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font-weight: normal;	
+	vertical-align: baseline;
+	background: transparent;
+	}
+body {
+	line-height: 1;
+	}	
+ol, ul {
+	list-style: none;
+	}
+table { 
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+	
+/* ---------------------------------------------------------------
+	FEUILLE DE STYLE ORIGINALE	
+--------------------------------------------------------------- */
+html {
+	height: 100%
+	}
+body {
+	background: #20190f;
+	color: #e8dbb1;
+	font-size: 14px;
+	font-family: Verdana, Geneva, Sans-Serif;
+	height: 100%;
+	}
+
+/** Bloc contenant toute la page 
+avec image de fond et centré */
+#bcPage {
+	background: url(../images/fond.jpg);
+	padding-bottom: 40px;
+	margin: auto;
+	width: 800px;
+	}
+	
+/* ---------------------------------
+	 Définition des tags de titre 
+*/
+h1 {
+	border-bottom: 3px solid #e8dbb1;
+	font-size: 36px;
+	font-weight: bold;
+	margin: 26px 0;
+	}	
+h2 {
+	font-size: 26px;
+	font-weight: bold;	
+	margin: 22px 0px;
+	
+	}
+h3 {
+	font-size: 20px;
+	font-weight: bold;	
+	margin: 18px 0;
+	}
+
+p {
+	padding:2px;
+}
+
+/* ---------------------------------
+	 Définition des autres tags 
+*/
+
+		
+strong {
+	font-weight: bold;
+	}
+	
+	
+header {
+	height: 270px;
+	background: url(../images/entete_deconnecte.jpg) no-repeat;
+	}
+	
+aside {
+	background: url(../images/micro.jpg) no-repeat;
+	color: #efe7de;
+	font: bold 16px "Comic Sans MS", cursive, sans-serif;
+	float: left;
+	height: 450px;
+	padding-left: 15px;
+	width: 235px;
+	}
+	
+footer {
+	height: 65px;
+	width: 800px;
+	background: url(../images/pied.png) no-repeat;
+	}
+	
+a {
+	text-decoration:none;
+	color: #3c96f1;
+	font-weight: bold;
+	}
+
+p > a:hover  {
+	text-decoration: underline;
+	}
+	
+	
+#titre {
+	float: right;
+	color: orange;
+	font-size: 26px;
+	font-weight: bold;
+	margin-right: 20px;
+	margin-top: 160px;
+	}
+
+#letrait {
+	 float: right;
+   	 margin-right: 10px;
+	}	
+	
+	
+#expli {
+	font-weight: bold;
+	padding-top: 220px;
+	padding-left: 250px;
+	}
+	
+	
+#Connection {	
+	
+	
+#deco {
+	margin-top: 10px;
+	float:right;
+	}
+	
+	
+
+#home {
+	width:48px;
+	height:44px;
+	
+	position: relative;
+	left:540px;
+	top:83px;
+	}
+
+
+#cherche {
+	width:44px;
+	height:40px;
+	
+	position: relative;
+	left:550px;
+	top:83px;
+	}
+
+
+#config {
+	width:44px;
+	height:40px;
+	
+	position: relative;
+	left:560px;
+	top:83px;
+	
+
+	}
+	
+
+
+
+
+#saisie {
+	width:528px;
+	height:142px;
+	
+	position: relative;
+	left:270px;
+	top:77px;
+	
+	display:block;
+	
+	}
+			
+#blabla {
+	background-color: #F5F4F4;
+	border-color: #B4B3B3;
+	color: #7A370D;
+	width: 470px;
+	height: 55px;
+	
+	position: relative;
+	left:313px;
+	bottom:40px;
+	
+	vertical-align: top;
+	
+	display:block;
+	
+	}
+
+
+
+#trombone {
+	width:52px;
+	height:44px;
+	
+	position: relative;
+	left:320px;
+	bottom: 82px;
+
+	}
+
+
+#haut_parleur {
+	width:52px;
+	height:44px;
+	
+	position: relative;
+	left:723px;
+	bottom: 35px;
+	
+	}	
+
+
+.titre {
+	color:#EFE7DE;
+	font-size: 18px;	
+
+	padding-top:16px;
+	padding-left:10px;
+	
+	}
+	
+.utilisateur {
+	font: 16px/ Comic Sans MS, cursive, sans-sherif;
+	font-weight: bold;
+	
+	padding-left:10px;
+
+
+	
+	}
+
+.pic {
+	vertical-align:middle;
+	padding-right:5px;
+}
+
+
+
+
+.texte {
+	background-color: rgba(109, 59, 26, 0.6);	
+	margin-left:25px;	
+	padding-top:5px;
+	
+	margin-bottom:10px;		
+	}
+
+
+.pic_blabla {
+	float:left;
+	margin-left:-25px;
+	padding-right:10px;
+	}
+	
+small {
+	font-size: 12px;
+	color: #EFE7DE;	
+	
+	line-height:140%;
+	}
+
+br {
+	display:block;
+	margin-top: 6px;
+	}
+
+.action {
+	float:right;
+	word-spacing: 22px;
+	padding-right:5px;
+	}
+	
+.opac {
+	opacity:0.6;
+	}
+
+.opac:hover {
+	opacity:1;
+	}
+
+
+#encoreplus {
+	float:right;
+	padding-right:5px;
+	}
+
+#toujoursplus {
+	position:relative;
+	top:30px;
+	}
+
+#encoreencore {
+	text-align:right;
+	}
+
+#enbas {
+	word-spacing: 12px;
+	font-size: 12px;
+	text-align:center;
+	}
+	
+.mot {
+	word-spacing:2px;
+	}
